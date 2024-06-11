@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+int size=5;
+int arr[size]={10,20,30,40,50};
+
+int start=0;
+int end = size-1;
+
+for(int i=1;i<5; i++){
+    if(start>end){
+        break;
+    }else{
+       cout<<arr[start];
+       start++;
+       cout<<arr[end];
+       end--;
+    }
+}
+
+}
+
